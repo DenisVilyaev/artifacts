@@ -1,0 +1,85 @@
+@media (max-width: 1115px) {
+  .header__content {
+    padding: 18px 32px;
+  }
+
+    .hero {
+    padding: 50px 35px 54px 29px;
+  }
+
+  .cards__container {
+    padding: 0 32px;
+  }
+
+  .artifacts__title {
+    padding: 0 0 0 38px;
+  }
+
+  .artifacts__content {
+    flex-wrap: wrap;
+    padding: 0 32px;
+  }
+
+  .artifacts__gallery {
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+
+  .artifacts__info {
+    flex: 0 0 255px;
+  }
+
+    .support {
+    padding: 0 30px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+
+  .header__btns {
+    gap: 32px;
+  }
+
+  .hero__description {
+    display: none;
+  }
+
+  .hero__link {
+    margin: 25px 0 0 0;
+  }
+
+  .card {
+    flex: 0 0 calc(50% - 30px);
+  }
+
+  .support__title {
+    margin: 0 0 44px 0;
+  }
+
+  .support__description {
+    display: none;
+  }
+
+  .help-project__input {
+    width: 255px;
+  }
+
+  .help-project__send {
+    max-width: 128px;
+    padding: 11.5px 17.5px;
+  }
+}
+
+@media (max-width: 610px) {
+    .cards__container {
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        scroll-snap-type: mandatory;
+        justify-content: flex-start;
+    }
+}

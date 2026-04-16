@@ -1,0 +1,100 @@
+.card {
+    outline: 1px solid #0B1919;
+    min-width: 255px;
+    flex: 0 0 calc(25% - 30px);
+}
+
+.card__block-image {
+    /* width: 255px; */
+    width: 100%;
+    height: 180px;
+    position: relative;
+}
+
+.card__badge {
+    padding: 3px 4px 5px 4px;
+    position: absolute;
+    border: 1px solid #899D9D;
+    border-radius: 50%;
+    left: 16px;
+    top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    font-family: "Cormorant";
+    color: #899D9D;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+
+}
+
+.card__block-image_plant {
+ background: #0B1919 url(../images/plant.png) center / 80% no-repeat;
+}
+
+.card__block-image_flower {
+ background: #0B1919 url(../images/flower.png) center / 80% no-repeat;
+}
+
+.card__block-image_leaf {
+ background: #0B1919 url(../images/leaf.png) center / 80% no-repeat;
+}
+
+.card__block-image_wood {
+ background: #0B1919 url(../images/wood.png) center / 80% no-repeat;
+}
+
+.card__info {
+    padding: 16px 16px 24px 16px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 313px;
+}
+
+.card__title {
+    margin: 0 0 8px 0;
+ color: #fff;
+ font-size: 24px;
+ font: "Cormorant";
+font-weight: 700;
+line-height: 150%;
+}
+
+.card__description {
+    margin: 0 0 16px 0;
+ color: #899D9D;
+ font-size: 16px;
+ font: "Open Sans";
+font-weight: 400;
+line-height: 150%;
+font-family: "Open Sans";
+}
+.card__link {
+color: #BAE249;
+font-size: 16px;
+font-weight: 400;
+line-height: 150%;
+border: 1px solid #BAE249 ;
+
+padding: 10.5px 28.5px 10.5px 28.5px;
+text-align: center;
+transition: all 0.2s ease-in-out;
+}
+
+.card__link:hover {
+    color: #0B1919;
+    background: #BAE249;
+}
+
+.card__link:focus-visible {
+    outline: 1px solid #83A440;
+}
+
+.card__link:active {
+    color: #0B1919;
+    background: #688B05;
+    border: #688B05;
+}

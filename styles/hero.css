@@ -1,0 +1,72 @@
+.main {
+    background-color: #1d2f30;
+}
+
+.hero {
+    background: url(../images/hero_shade.svg), url(../images/bg__image.jpg) center / cover no-repeat;
+    margin: 60px 0 0 0 ;
+    padding: 86px calc(50% - 1110px / 2) 139px calc(50% - 1110px / 2);
+}
+
+/* .hero__bg {
+max-width: 1110px;
+margin: 0 auto;
+padding: 86px 0 139px 0;
+} */
+
+.hero__title {
+ font-size: 60px;
+ font-weight: 700;
+ line-height: 100%;
+ color: #FFFFFF;
+ padding: 0 486px 8px 0px;
+}
+
+.hero__description {
+font-size: 16px;
+font-weight: 400;
+line-height: 150%;
+ color: #FFFFFF;
+padding: 0 440px 8px 0px;
+font-family: "Open Sans";
+}
+
+.hero__link {
+font-size: 16px;
+font-weight: 700;
+line-height: 100%;
+color: #BAE249;
+fill: #BAE249;
+padding: 5.5px 0;
+font-family: "Open Sans";
+ display: inline-flex;
+ align-items: center;
+ gap: 8px;
+}
+
+.hero__link-img {
+    display: flex;
+}
+
+.hero__link svg {
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.hero__link:hover {
+    color: #91AC46;
+    fill: #91AC46;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.hero__link:hover svg {
+    transform: translateX(10px);
+}
+
+.hero__link:focus-visible {
+    outline: 1px solid #83A440;
+}
+
+.hero__link:active {
+    color: #688B05;
+    fill: #688B05;
+}

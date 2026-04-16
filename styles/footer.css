@@ -1,0 +1,39 @@
+.footer__links {
+    background: #0B1919;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 18px 0;
+}
+
+.footer__link svg {
+    fill: #899D9D;
+    transition: 0.1s ease-in-out;
+}
+
+.footer__link svg:hover {
+    fill: #BAE249;
+    transition: 0.1s ease-in-out;
+    transform: scale(1.1);
+}
+
+.footer__link:focus-visible {
+    outline: 1px solid #83A440;
+}
+
+.footer__link svg:active {
+    fill: #688B05;
+}
+
+.footer__time {
+    background: #1d2f30;
+    display: flex;
+    justify-content: center;
+    color: #899D9D;
+    padding: 3px 0;
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+}
